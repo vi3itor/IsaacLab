@@ -33,14 +33,14 @@ Repository organization
    └── VERSION
 
 Isaac Lab is built on the same back end as Isaac Sim.  As such, it exists as a collection of **extensions** that can be assembled into **applications**.
-The ``source`` directory contains the majority of the code in the repository and the specific extensions that compose Isaac lab, while ``scripts`` containing python scripts for launching customized standalone apps (Like our workflows).
-These are the two primary ways of interacting with the simulation and Isaac lab supports both!
-Checkout this `Isaac Sim introduction to workflows <https://docs.isaacsim.omniverse.nvidia.com/latest/introduction/workflows.html>`__ for more details.
+The ``source`` directory contains the majority of the code in the repository and the specific extensions that compose Isaac lab, while ``scripts``contains python scripts for launching customized standalone apps (like our workflows).
+These are the two primary ways of interacting with the simulation, and Isaac lab supports both!
+Check out this `Isaac Sim introduction to workflows <https://docs.isaacsim.omniverse.nvidia.com/latest/introduction/workflows.html>`__ for more details.
 
 Extensions
 ~~~~~~~~~~
 
-The extensions that compose Isaac Lab are kept in the ``source`` directory. To simplify the build process, Isaac Lab directly use `setuptools <https://setuptools.readthedocs.io/en/latest/>`__. It is strongly recommend that you adhere to this process if you create your own extensions using Isaac Lab.
+The extensions that compose Isaac Lab are kept in the ``source`` directory. To simplify the build process, Isaac Lab directly uses `setuptools <https://setuptools.readthedocs.io/en/latest/>`__. It is strongly recommended that you adhere to this process if you create your own extensions using Isaac Lab.
 
 The extensions are organized as follows:
 
